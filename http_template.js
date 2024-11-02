@@ -17,6 +17,7 @@ const server = http.createServer((req,res)=>{
     // More efficient with streams and pipes
     // fs.createReadStream(__dirname+"./index.html").pipe(res);
     
+    
 })
 
 server.listen(PORT,()=>{
